@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DownloaderDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="failed">Failed</string>
+    <string name="completed">Completed</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="unable_to_open_file">Unable to open downloaded file.</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="invalid_url">Invalid URL.</string>
+    <string name="permission_denied">Permission not granted!</string>
+    <string name="download_in_progress">Download already in progress!</string>
+    <string name="empty_url">Empty URL.</string>
+    <string name="download_url">Download Url</string>
+    <string name="open">Open</string>
+</resources>
