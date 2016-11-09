@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
         if (total <= 0) {
             progress = 0;
         } else {
-            progress = (downloaded * 200 + total) / (total * 2);
+            progress = (int) ((downloaded * 200L + total) / (total * 2L));
         }
         Log.d(TAG, "Progress: " + downloaded + "/" + total + " (" + progress + "%)");
         updatePercentage(progress);
